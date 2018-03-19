@@ -9,21 +9,22 @@
     <script type="text/javascript">
 
 let name = 'Johnny'
-console.log('je m\'appelle ' + name)
-console.log(`je m'appelle ${name}`)
+console.log('Je m\'appelle ' + name)
+console.log(`Je m'appelle  ${name}`)
 
+console.log(name.length)
 
-let nameLength = name.length
-console.log(nameLength)
+name = 'Je m\'appelle ' + name +' Hallyday'
+console.log(name.toLowerCase())
+console.log(name.toUpperCase())
+console.log(name.length)
 
-name = name + ' Halliday'
-nameLength = name.length
+console.log(name[0])
+console.log(name.charAt(13))
+console.log(name.charAt(20))
 
-console.log('je m\'appelle ' + name)
-console.log(nameLength)
-
-
-
+name = name.replace("Johnny Hallyday", "John Lennon")
+console.log(name)
 
     </script>
   </body>
